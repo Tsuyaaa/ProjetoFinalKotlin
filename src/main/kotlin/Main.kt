@@ -33,8 +33,4 @@ fun main() {
         dog.obrig()
     }
 
-
-
-
-
 }

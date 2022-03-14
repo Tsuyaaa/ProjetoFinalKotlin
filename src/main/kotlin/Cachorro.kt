@@ -16,7 +16,7 @@ class Cachorro(nome: String,
     fun age() {
         while (true) {
             try {
-                print("Digite a idade: ")
+                print("Digite a idade em anos (em caso de menos de 1 ano, digite 0): ")
                 idade = readLine()!!.toInt()
                 break
 
