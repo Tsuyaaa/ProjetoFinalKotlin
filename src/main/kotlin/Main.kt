@@ -14,24 +14,21 @@ fun main() {
      */
 
     print(
-        "Por favor, digite o peso:\n" +
+        "Digite o peso:\n" +
 
                 "R: "
     )
     val peso = readLine()!!
 
     print(
-        "Certo, qual o sexo do animal?\n" +
+        "Qual o sexo do animal?\n" +
 
                 "R: "
     )
     val sexo = readLine()!!
 
     print(
-        "Okay! Estamos quase terminando. Por favor, digite a raça:\n" +
-
-                "R: "
-    )
+        "Digite a raça: ")
     val raca = readLine()!!
 
     if (animalEscolhido == "gato") {
